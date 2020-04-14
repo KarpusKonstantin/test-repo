@@ -686,10 +686,10 @@ class V_keyboard {
         document.addEventListener('keyup', this.keyUpEvent.bind(this));
 
         this.changeLanguage();
-
     }
 
     clickButton (event) {
+
 
         let keyCode;
 
