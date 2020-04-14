@@ -680,7 +680,6 @@ class V_keyboard {
         document.addEventListener('mousedown', this.mouseDownEvent.bind(this)); // Должен появляться класс active
         document.addEventListener('mouseup', this.mouseUpEvent.bind(this));
 
-        /* Регистрируем нажатие кнопки */
         document.addEventListener('keydown', this.keyDownEvent.bind(this));
         document.addEventListener('keyup', this.keyUpEvent.bind(this));
 
