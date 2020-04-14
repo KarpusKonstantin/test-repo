@@ -677,7 +677,6 @@ class V_keyboard {
         wrapper.append(changeLang);
 
 
-        /* Регистрируем нажатие мыжки */
         document.addEventListener('mousedown', this.mouseDownEvent.bind(this)); // Должен появляться класс active
         document.addEventListener('mouseup', this.mouseUpEvent.bind(this));
 
